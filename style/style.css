@@ -1,0 +1,785 @@
+
+.content-three {
+    width: 1300px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.content-three p {
+    margin: 25px;
+}
+
+.the-crew {
+    width: 100%;
+    height: 760px;
+}
+
+.item p {
+    color: white;
+    width: 249px;
+    height: 62px;
+    font-family: OpenSans;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.item img {
+    height: 220px;
+    width: 220px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.item {
+    width: 250px;
+    float: left;
+    padding: 18px;
+}
+
+.img-saga img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* margin: 50px; */
+}
+
+
+.saga-is {
+    width: 100%;
+    height: 610px;
+    margin: auto;
+}
+
+.what-is-saga h3 {
+    width: 70%;
+    height: 45px;
+    font-family: OpenSans;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: -0.68px;
+    color: #222222;
+    margin: auto;
+    position: relative;
+}
+
+.content p {
+    width: 100%;
+    height: 70%;
+    font-family: OpenSans;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #b1adad;
+    margin-top: 10px;
+}
+
+h3.Night-and-Day {
+    width: 40%;
+    height: 41px;
+    font-family: OpenSans;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 0.55; */
+    letter-spacing: -2.2px;
+    text-align: center;
+    color: #00a5ff;
+    /* margin: 0 0 0 385px; */
+    margin: auto;
+}
+
+.menu ul li a{
+    display: inline;
+    padding: 5px;
+    width: 592px;
+    height: 12px;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+    /* right: -18%; */
+    /* position: absolute; */
+    width: 48%;
+}
+
+.title {
+    width: 1536px;
+    /* margin: 0 8% 0 8%; */
+    position: absolute;
+    /* left: 13%; */
+    /* top: 6%; */
+    z-index: 1;
+    position: fixed;
+    padding: 02% 0% 2% 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.The-Curseborn-Saga {
+    /* height: 100%; */
+    margin-left: 13%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    color: #7b7777;
+    font-size: 15px;
+    position: relative;
+}
+.footer {
+    clear: right;
+    width: 100%;
+    height: 95px;
+    background-color: black;
+}
+
+.button-send button {
+    width: 100%;
+    height: 100%;
+    background: aqua;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-send button:hover{
+    background: lightgray;
+    transition: 0.5s;
+}
+
+.button-send {
+    float: right;
+    width: 165px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.button:hover {
+    background: aqua;
+    transition: 0.5s;
+}
+
+.form-message {
+    float: left;
+    margin-top: 30px;
+}
+
+input#email {
+    height: 40px;
+    width: 360px;
+}
+
+.form-email {
+    float: right;
+    width: 360px;
+}
+
+.form-name label span, .form-email label span, .form-message label span {
+    color: red;
+}
+
+input#name {
+    width: 360px;
+    height: 40px;
+}
+
+.form-name {
+    float: left;
+    width: 360px;
+}
+
+.form {
+    width: 810px;
+    margin: auto;
+}
+
+.our-word h2 span {
+    color: black;
+    font-weight: 600;
+}
+
+.content-bazzar p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 21px;
+    color: #d4d3d3;
+}
+
+.content-bazzar {
+    position: absolute;
+    top: 40%;
+    width: 1200px;
+    left: 11%;
+}
+
+.title-bazzar h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.title-bazzar h2:before {
+    content: '';
+    width: 50%;
+    height: 5px;
+   background-color: #00a8ff;
+    position: absolute;
+    top: 125%;
+    left: 27%;
+}
+
+.title-bazzar h2:after {
+    content: '';
+    width: 30%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 150%;
+    left: 37%;
+}
+
+.bazzar {
+    position: relative;
+}
+
+.title-bazzar {
+    position: absolute;
+    top: 18%;
+    left: 44%;
+    width: 12%;
+    text-align: center;
+}
+
+.item-image img {
+    height: 235px;
+    width: 280px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.item-image {
+    height: 260px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sub-menu-our-word span {
+    color: lightslategrey;
+}
+
+.menu-our-word h3 {
+    float: left;
+}
+
+.sub-menu-our-word {
+    float: right;
+}
+
+.menu-our-word {
+    width: 1200px;
+    margin: auto;
+    height: 30px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #222222;
+}
+
+.our-word p {
+    width: 1200px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+p.our-word-p {
+    width: 800px;
+}
+
+.item-novellas p {
+    font-family: OpenSans;
+    font-size: 16.4px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #cbcbcb;
+    line-height: 25px;
+}
+
+.item-novellas {
+    width: 22%;
+    height: 98%;
+    border: solid 1px #3e3e3e;
+    text-align: center;
+    float: left;
+    margin: 0 15px;
+    background: black;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-novellas {
+    position: absolute;
+    top: 17%;
+    left: 37%;
+    width: 382px;
+    height: 50px;
+    font-family: OpenSans;
+    font-size: 29px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.title-novellas h2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: OpenSans;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.55;
+    letter-spacing: normal;
+}
+
+.title-novellas h2:before{
+    content:'';
+    width: 30%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top:120%;
+    left: 30%;
+}
+
+.title-novellas h2:after{
+    content:'';
+    width: 20%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top:150%;
+    left: 35%;
+}
+
+.load-more {
+    margin: 0 662px;
+}
+
+.content-one, .content-two {
+    width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.the-crew h2 {
+    font-family: auto;
+    width: 210px;
+    margin: auto;
+    margin-top: 70px;
+    font-family: OpenSans;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #222222;
+    position: relative;
+}
+
+.the-crew h2:before {
+    content: '';
+    width: 45%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 150%;
+    left: 29%;
+}
+
+.the-crew h2:after {
+    content: '';
+    width: 30%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 190%;
+    left: 37%;
+}
+
+.item h4 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.title-charactier h3 {
+    width: 403px;
+    height: 100%;
+    font-family: OpenSans;
+    font-size: 44px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: relative;
+}
+
+.title-charactier {
+    position: absolute;
+    top: 7%;
+    left: 38%;
+    height: 50px;
+}
+
+.title-charactier h3:before{
+    content: '';
+    width: 25%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 125%;
+    left: 30%;
+}
+
+.title-charactier h3:after {
+    content: '';
+    width: 15%;
+    height: 5px;
+    background-color: #00a8ff;
+    position: absolute;
+    top: 160%;
+    left: 35%;
+}
+
+.img-saga {
+    float: left;/
+    width: 30%;
+    height: 451px;
+    width: 451px;
+    margin: 60px 0 60px 10%;
+}
+
+.what-is-saga {
+    float: left;
+    width: 49%;
+    margin: auto;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.button h4 {
+    float: left;
+    font-size: 12px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.button img {
+    float: left;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.button {
+    width: 192px;
+    height: 45px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    margin: 20px 0 0 14%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.what-is-saga p span {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.what-is-saga p {
+    width: 70%;
+    height: 235px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: -0.72px;
+    text-align: left;
+    color: #6c6c6c;
+    margin: auto;
+    padding: 30px 0 0 0;
+}
+
+.content {
+    position: absolute;
+    top: 38%;
+    left: 13%;
+    height: 20%;
+    width: 75%;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 790px;
+}
+
+#home {
+    position: relative;
+    background-image: url("../img/Layer-36.jpg");
+    width: 100%;
+    height: 726px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#charactier {
+    position: relative;
+    background-image: url("../img/Layer-40.jpg");
+    width: 100%;
+    height: 790px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#novellas {
+    position: relative;
+    background-image: url("../img/add-your-image-here.jpg");
+    width: 100%;
+    height: 517px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bazzar {
+    position: relative;
+    background-image: url("../img/Layer-89.jpg");
+    width: 100%;
+    height: 562px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.wrapper {
+    width: 1536px;
+    height: auto;
+    margin: auto;
+}
+
+.The-Curseborn-Saga h3 {
+  /* width: 360px; */
+  /* height: 26px; */
+  font-family: MyriadPro-CondIt;
+  font-size: 27px;
+  F
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1; */
+  letter-spacing: normal;
+  text-align: left;
+  color: #00a8ff;
+  float: left;
+}
+
+.down {
+    position: absolute;
+    top: 81%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.items {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    width: 77%;
+    height: 110px;
+}
+
+.our-word h2 {
+    margin: auto;
+    margin-top: 70px;
+    font-family: OpenSans;
+    font-size: 40px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #222222;
+    text-align: center;
+    height: 40px;
+    position: relative;
+    width: 20%;
+}
+
+h2.title-contact {
+    width: 36%;
+}
+
+.our-word h2:before{
+    content: '';
+    width: 38%;
+    height: 5px;
+    position: absolute;
+    background: #00a8ff;
+    top: 125%;
+    left: 30%;
+}
+
+.our-word h2:after{
+    content: '';
+    width: 25%;
+    height: 5px;
+    position: absolute;
+    background-color: #00a8ff;
+    top: 155%;
+    left: 37%;
+}
+
+.what-is-saga h3:before {
+    content:'';
+    width: 19%;
+    height: 5px;
+    position: absolute;
+    background-color: #0096ff;
+    top: 108%;
+    left: 0%;
+}
+
+.menu ul li a:hover{
+    color: lightgray;
+    transition: 0.5s;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a:before{
+    content:'';
+    width:0px;
+    height:5px;
+    background:blue;
+    position:absolute;
+    top:130%;
+    left:0;
+    transition: 0.5s;
+}
+
+
+.menu ul li:hover a:before{
+    width:50%;
+    transform:translateX(50%) ;
+}
+
+.footer footer p {
+    width: 500px;
+    float: left;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    height: 15px;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.icon {
+    position: absolute;
+    float: left;
+    top: 29%;
+    left: 75%;
+}
+
+.icon a {
+    color:white;
+}
+
+i.fab.fa-facebook.fa-2x {
+    margin: 0 10px 0 0;
+}
+
+i.fab.fa-twitter-square.fa-2x {
+    margin: 0 10px 0 0;
+}
+
+i.fab.fa-google-plus.fa-2x {
+    margin: 0 10px 0 0;
+}
+
+i.fab.fa-linkedin.fa-2x {
+    margin: 0 10px 0 0;
+}
